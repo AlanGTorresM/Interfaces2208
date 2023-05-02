@@ -49,6 +49,7 @@ public class MainG {
         System.out.println(comidas2.get(3));
         comidas2.set(3, new Comida("Fresa", false));
         comidas2.add(3, new Comida("Naranja", false));
+
         System.out.println("-------- Final ---------");
         for (Comida comida: comidas2){
             System.out.println(comida);
